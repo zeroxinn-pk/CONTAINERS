@@ -63,5 +63,9 @@ sudo docker ps
 
 ## DVWA DEPLOYMENT ON DOCKER CONTAINER
 
+sudo docker pull vulnerables/web-dvwa
+
+sudo docker run --rm -it -p 80:80 vulnerables/web-dvwa
+
 
 
