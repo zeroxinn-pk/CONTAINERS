@@ -56,6 +56,10 @@ docker run -d -t --name test centos
 docker exec -it test bash
 
 
+sudo docker images
+
+running images
+sudo docker ps
 
 
 
